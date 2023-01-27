@@ -1,7 +1,5 @@
 # PostgresSQL
 
-This repository defines an example of a Docker extension. The files in this repository have been automatically generated as a result of running `docker extension init`.
-
 This extension is composed of:
 
 - A [frontend](./ui) app in React that makes a request to the `/hello` endpoint and displays the payload in Docker Desktop.
