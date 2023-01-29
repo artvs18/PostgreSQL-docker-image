@@ -16,11 +16,6 @@
 ## If you only need support of russian locale use command below to run docker container with your credentials:
 docker run --name yourContainerName -e POSTGRES_USER=userName -e POSTGRES_PASSWORD=userPassword -e POSTGRES_DB=nameOfDatabase -p 5432:5432 -d artvs18/postgres
 
-## Feel free to customize this image as you want!
-<details><summary>CLICK HERE TO SEE EXAMPLE</summary>
-<p>
-
-
 ## As example of how to set image to de_DE locale follow this steps:
 
 > Clone repo
@@ -43,6 +38,5 @@ docker build -t artvs18/postgresss .
 > Run yout custom docker image:
 
 docker run --name yourContainerName -e POSTGRES_USER=userName -e POSTGRES_PASSWORD=userPassword -e POSTGRES_DB=nameOfDatabase -p 5432:5432 -d artvs18/postgresss
-  
-</p>
-</details>
+
+## Feel free to customize this image as you want!
